@@ -1,0 +1,802 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top:5rem;
+}
+.colorchang{
+    background-color: rgba(53, 53, 53, 0.5);
+}
+
+.navbar{
+    transition: .5s;  
+    z-index: 55;  
+}
+:root {
+    --sidecolor:#999999;
+    --maincolor: rgb(52, 52, 52);
+}
+
+@font-face{
+    font-family: "monts";
+    src: url(../webfonts/Montserrat/static/Montserrat-ExtraBold.ttf);
+
+}
+.sdc{color:  var(--sidecolor);}
+.hfo{
+    font-family: monts;
+}
+/* start home */
+.hedes {
+
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.hedlayer {
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.refword::after {
+    content: "";
+    animation: 10s word linear infinite;
+}
+
+@keyframes word {
+    0% {
+        content: " L|";
+    }
+
+    1% {
+        content: " La|";
+    }
+
+    2% {
+        content: " Lar|";
+    }
+
+    3% {
+        content: " Larr|";
+    }
+
+    4% {
+        content: " Larry|";
+    }
+
+    5% {
+        content: " Larry|";
+    }
+
+    6% {
+        content: " Larry D|";
+    }
+
+    7% {
+        content: " Larry Da|";
+    }
+
+    8% {
+        content: " Larry Dan|";
+    }
+
+    9% {
+        content: " Larry Dani|";
+    }
+
+    10% {
+        content: " Larry Danil|";
+    }
+
+    11% {
+        content: " Larry Danils.|";
+    }
+
+    13% {
+        content: " Larry Danils.|";
+    }
+
+    14% {
+        content: " Larry Danil|";
+    }
+
+    15% {
+        content: " Larry Dani|";
+    }
+
+    16% {
+        content: " Larry Dan|";
+    }
+
+    17% {
+        content: " Larry Da|";
+    }
+
+    18% {
+        content: " Larry D|";
+    }
+
+    19% {
+        content: " Larry|";
+    }
+
+    20% {
+        content: " Larry|";
+    }
+
+    21% {
+        content: " Larr|";
+    }
+
+    22% {
+        content: " Lar|";
+    }
+
+    23% {
+        content: " La|";
+    }
+
+    24% {
+        content: " L|";
+    }
+
+    25% {
+        content: " |";
+    }
+
+    25% {
+        content: " D|";
+    }
+
+    26% {
+        content: " De|";
+    }
+
+    27% {
+        content: " Des|";
+    }
+
+    28% {
+        content: " Desi|";
+    }
+
+    29% {
+        content: " Desig|";
+    }
+
+    30% {
+        content: " Design|";
+    }
+
+    31% {
+        content: "Designe|";
+    }
+
+    32% {
+        content: " Designer.|";
+    }
+
+    33% {
+        content: " Designer.|";
+    }
+
+    34% {
+        content: " Designer|";
+    }
+
+    35% {
+        content: " Desige|";
+    }
+
+    36% {
+        content: " Desig|";
+    }
+
+    37% {
+        content: " Desi";
+    }
+
+    38% {
+        content: " Des";
+    }
+
+    39% {
+        content: " De|";
+    }
+
+    40% {
+        content: " D|";
+    }
+
+    41% {
+        content: " |";
+    }
+
+    42% {
+        content: " D|";
+    }
+
+    43% {
+        content: " De|";
+    }
+
+    44% {
+        content: " Dev|";
+    }
+
+    45% {
+        content: " Deve|";
+    }
+
+    46% {
+        content: " Devel|";
+    }
+
+    47% {
+        content: " Develo|";
+    }
+
+    48% {
+        content: " Develop|";
+    }
+
+    49% {
+        content: " Develope|";
+    }
+
+    50% {
+        content: " Developer|";
+    }
+
+    51% {
+        content: " Developer.|";
+    }
+
+    52% {
+        content: " Developer.|";
+    }
+
+    53% {
+        content: " Develope|";
+    }
+
+    54% {
+        content: " Develop|";
+    }
+
+    55% {
+        content: " Develo|";
+    }
+
+    56% {
+        content: " Devel|";
+    }
+
+    57% {
+        content: " Deve|";
+    }
+
+    58% {
+        content: " Dev|";
+    }
+
+    59% {
+        content: " De|";
+    }
+
+    60% {
+        content: " D|";
+    }
+
+    61% {
+        content: " |";
+    }
+
+    62% {
+        content: " |";
+    }
+
+    63% {
+        content: " L|";
+    }
+
+    64% {
+        content: " La|";
+    }
+
+    65% {
+        content: " Lar|";
+    }
+
+    66% {
+        content: " Larr|";
+    }
+
+    67% {
+        content: " Larry|";
+    }
+
+    68% {
+        content: " Larry |";
+    }
+
+    69% {
+        content: " Larry D";
+    }
+
+    70% {
+        content: " Larry Da|";
+    }
+
+    71% {
+        content: " Larry Dan|";
+    }
+
+    72% {
+        content: " Larry Dani|";
+    }
+
+    73% {
+        content: " Larry Danil|";
+    }
+
+    74% {
+        content: " Larry Danils|";
+    }
+
+    75% {
+        content: " Larry Danils.|";
+    }
+
+    76% {
+        content: " Larry Danils.|";
+    }
+
+    77% {
+        content: " Larry Danils|";
+    }
+
+    78% {
+        content: " Larry Danil|";
+    }
+
+    79% {
+        content: " Larry Dani|";
+    }
+
+    80% {
+        content: " Larry Dan|";
+    }
+
+    81% {
+        content: " Larry Da|";
+    }
+
+    82% {
+        content: " Larry D|";
+    }
+
+    83% {
+        content: " Larry |";
+    }
+
+    84% {
+        content: " Larry|";
+    }
+
+    85% {
+        content: " Larr|";
+    }
+
+    86% {
+        content: " Lar|";
+    }
+
+    87% {
+        content: " La|";
+    }
+
+    88% {
+        content: " L|";
+    }
+
+    89% {
+        content: " |";
+    }
+
+    90% {
+        content: " |";
+    }
+
+    91% {
+        content: " |";
+    }
+
+    92% {
+        content: " |";
+    }
+
+    93% {
+        content: " |";
+    }
+
+    94% {
+        content: " |";
+    }
+
+    95% {
+        content: " |";
+    }
+
+    96% {
+        content: " |";
+    }
+
+    97% {
+        content: " |";
+    }
+
+    98% {
+        content: " |";
+    }
+
+    99% {
+        content: " |";
+    }
+
+    100% {
+        content: " |";
+    }
+}
+
+.ickn {
+    position: relative;
+    color: white;
+    z-index: 20;
+
+}
+.Wordd:hover{
+    color: black !important;
+}
+.icly {
+    margin-left: 10px;
+    position: relative;
+    padding: .5rem;
+}
+
+.ickn:hover {
+  color: blue !important;
+}
+.icly::after {
+
+    content: "";
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0%;
+    left: -2%;
+    z-index: 1;
+}
+
+
+/* start-nav */
+.inn {
+    color: white;
+}
+.inn:hover{
+    color: black !important;
+}
+/* .vavsh{
+    box-shadow: 20px 0px 50px 50px  #f4f4f4;
+} */
+
+
+/* end-nav */
+
+/* end home  */
+
+
+/* start about */
+
+.parbar {
+    height: 25px;
+    
+}
+.worded{
+    margin-top: 12px;
+    margin-left: 5px;
+
+}
+.barc {
+    background-color: var(--maincolor);
+}
+.btuun1{
+    padding: 7px 25px;
+    border: none;
+    background-color:var(--maincolor);
+    color:white;
+    border-radius: 5px;
+    border: 1px solid;
+transition: .5s;
+
+}
+.btuun{
+    padding: 7px 25px;
+    border: none;
+    background-color: white;
+    color: var(--maincolor);
+    border-radius: 5px;
+    border: 1px solid;
+    transition: .5s;
+
+}
+
+.btuun1:hover.btuun1{
+    background-color:white;
+    color:var(--maincolor);
+
+}
+.btuun:hover.btuun{
+    background-color:var(--maincolor);
+    color: white;
+
+
+}
+/* end-about */
+
+
+/* start-services */
+.services {
+    background-color: rgb(247, 247, 247);
+}
+
+.serper {
+    background-color: white;
+}
+
+.serper i {
+    position: relative;
+    z-index: 20;
+    font-size: 1.7rem;
+}
+
+.serlyr::after {
+    content: "";
+    position: absolute;
+    top: -1.1rem;
+    left: 50%;
+    transform: translatex(-50%);
+    z-index: -1;
+    background-color: rgb(244, 244, 244);
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    transition: .7s;
+
+}
+
+.serper:hover .serlyr::after {
+    background-color: black;
+
+}
+
+.serper:hover i {
+    color: white;
+}
+
+/* end-services */
+
+
+/* start-potfolio */
+.img-layer {
+    
+    position: absolute;
+    
+    top: 8px;
+    left: 8px;
+    bottom: 8px;
+    right: 8px;
+    opacity: 0;
+    transition: .5s;
+    background-color: white;
+}
+
+.icomt {
+    position: relative;
+    margin-top: 1.5rem;
+    transition: 1s;
+    font-size: 1rem;
+    padding: 0px 10px;
+    z-index: 500;
+    color: white;
+
+}
+
+.icomt::after {
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: -9px;
+    left: 3px;
+    z-index: -1;
+}
+
+.proj:hover .img-layer {
+    opacity: .9;
+    top: 2%;
+}
+
+.proj:hover .icomt {
+    margin-top: -.2rem;
+}
+
+.inhov:hover .icomt {
+    color: black;
+}
+
+.inhov:hover .icomt::after {
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px;
+
+}
+
+
+.nav-pills .nav-link.active {
+    background-color: rgba(165, 42, 42, 0);
+    text-decoration: underline;
+}
+
+/* end-potfolio */
+
+
+/* start-clints */
+.Clients {
+    background-color: rgb(247, 247, 247);
+}
+
+.imggg {
+    width: 7rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+    margin-left: 2%;
+}
+
+/* end-clints */
+
+/* start-team */
+
+.team {
+    background-color: rgb(247, 247, 247);
+}
+.img-lyyr{
+    width: 97%;
+    height:97%;
+    background-color: rgba(255, 255, 255, 0.836);
+    position: absolute ;
+    top: 0px;
+    left: 0px;
+    
+    inset: 5PX;
+   
+}
+.iini{
+    font-size: 1.7rem;
+    position:relative;
+    z-index: 10;
+    color: white;
+}
+.icllyr{
+    position: absolute;
+    top: -2px;
+    left:-4px;
+    border-radius: 50%;
+    padding: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    z-index: 8;
+    transition: .5s;
+  
+
+}
+.ithov:hover .icllyr{
+    background-color: white;
+    border: 1px solid black;
+
+}
+.ithov:hover .iini{
+    color: black;
+}
+.img-lyyr{
+    transform: rotateY(180deg) scale(0.5, 0.5);
+    transition: .5s;
+    opacity: 0;
+    z-index: 5555;
+}
+.imgarea:hover .imgsc{
+    transform: scale(1.2);
+}
+.imgarea:hover .img-lyyr{
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+   
+}
+.poinn{
+    cursor: pointer;
+}
+.imgsc{
+   transition: .5s;
+}
+.ssr{
+    border: 2px;
+    border-radius:  5px;
+}
+
+.textarea{background-color: #5B5B5B;}
+/* end-team */
+
+
+/* start-contact */
+.ilyr{
+    width: 4rem;
+    height: 4rem;
+    background-color:#f4f4f4;
+    position: absolute;
+    top: 22%;
+    left:50%;
+ border-radius: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    transition: .5s;
+}
+.iced{
+    font-size: 1.5rem;
+}
+.ihovv:hover .ilyr{
+    background-color: black;
+}
+.ihovv:hover .iced{
+    color: white;
+}
+
+
+
+
+.form-control{
+    background-color: #f4f4f4;
+}
+.s7bt{
+    border: none;
+    color: white;
+    background-color:#1c1c1c;
+    transition: .5s;
+}
+.s7bt:hover.s7bt{
+
+    box-shadow: 0px 0px 0px 1px #1c1c1c;
+    color: rgb(0, 0, 0);
+    background-color:#ffffff;
+}
+
+/* end-contact */
+
+
+/* start-copy */
+.sec8 {
+    font-size: 16px;
+    color: rgb(110, 110, 110);
+    background-color: 1c1c1c;
+}
+
+/* end-copy */
